@@ -10,9 +10,35 @@ def using_unshift(bouroughs_in_nyc, new_neighborhood)
 end
 
 def using_pop(continents)
-  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  deleted_string=continents.pop
+  continents.pop
 end
 
 def pop_with_args(array)
+  array.pop(2)
+end
+
+def using_shift(array)
+  array.shift 
+end
+
+def shift_with_args(array)
+array.shift(2)
+end
+
+def using_concat(a, b)
+  a.concat(b)
+end
+
+def using_insert(a, b)
+ a.insert(4, b)
+end
   
+def using_uniq(array)
+  array.uniq
+end
+
+def using_flatten(array)
+  array.flatten 
+end
+
+
